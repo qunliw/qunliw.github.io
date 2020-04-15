@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Ella",
+    "age": "10",
+    "openings": {
+      "white": ["Queen's gambit", "Averbakh"],
+      "black": ["Sicilian"]
+    }
+  },
+  {
+    "name": "Tony",
+    "age": "12",
+    "openings": {
+      "white": ["Queen's gambit"],
+      "black": ["Catalan"]
+    }
+  },
+  {
+    "name": "Jason",
+    "age": "13",
+    "openings": {
+      "white": ["French"],
+      "black": ["King's Indian"]
+    }
+  }
+]

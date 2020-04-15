@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Dan",
+    "age": "70",
+    "openings": {
+      "white": ["Vienna", "Scandinavian"],
+      "black": ["Ruy Lopez", "Dutch"]
+    }
+  },
+  {
+    "name": "Bill",
+    "age": "68",
+    "openings": {
+      "white": ["Reti"],
+      "black": ["French"]
+    }
+  },
+  {
+    "name": "Zachary",
+    "age": "29",
+    "openings": {
+      "white": ["Spanish"],
+      "black": ["Caro-Kann"]
+    }
+  }
+]
