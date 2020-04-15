@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.5d6d0b27.chunk.js",
-    "main.js.map": "/static/js/main.5d6d0b27.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.779f2086.js",
-    "runtime-main.js.map": "/static/js/runtime-main.779f2086.js.map",
-    "static/js/2.387b6595.chunk.js": "/static/js/2.387b6595.chunk.js",
-    "static/js/2.387b6595.chunk.js.map": "/static/js/2.387b6595.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5f582d0dca6e6053a8744d31f34cec42.js": "/precache-manifest.5f582d0dca6e6053a8744d31f34cec42.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.387b6595.chunk.js.LICENSE.txt": "/static/js/2.387b6595.chunk.js.LICENSE.txt"
+    "main.js": "/qunliw.github.io/static/js/main.5d6d0b27.chunk.js",
+    "main.js.map": "/qunliw.github.io/static/js/main.5d6d0b27.chunk.js.map",
+    "runtime-main.js": "/qunliw.github.io/static/js/runtime-main.bf17fe36.js",
+    "runtime-main.js.map": "/qunliw.github.io/static/js/runtime-main.bf17fe36.js.map",
+    "static/js/2.387b6595.chunk.js": "/qunliw.github.io/static/js/2.387b6595.chunk.js",
+    "static/js/2.387b6595.chunk.js.map": "/qunliw.github.io/static/js/2.387b6595.chunk.js.map",
+    "index.html": "/qunliw.github.io/index.html",
+    "precache-manifest.4b6d1db29d1ca65fa903af150f1a2fe6.js": "/qunliw.github.io/precache-manifest.4b6d1db29d1ca65fa903af150f1a2fe6.js",
+    "service-worker.js": "/qunliw.github.io/service-worker.js",
+    "static/js/2.387b6595.chunk.js.LICENSE.txt": "/qunliw.github.io/static/js/2.387b6595.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.779f2086.js",
+    "static/js/runtime-main.bf17fe36.js",
     "static/js/2.387b6595.chunk.js",
     "static/js/main.5d6d0b27.chunk.js"
   ]
