@@ -114,9 +114,18 @@ body {
   box-sizing: border-box;
 }
 
+#main button {
+  background-color: #133b47;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  box-shadow: 2px 2px 0 #034154;
+  font-size: 16px;
+}
+
 #sidebar {
   float: right;
-  width: 30%;
+  width: 35%;
   background: rgb(70, 60, 50);
   color: lightgoldenrodyellow;
   padding: 10px;
