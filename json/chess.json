@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ella",
+    "age": "10",
+    "openings": {
+      "white": ["Queen's gambit"],
+      "black": ["Sicilian"]
+    }
+  },
+  {
+    "name": "Tony",
+    "age": "12",
+    "openings": {
+      "white": ["Queen's gambit"],
+      "black": ["Catalan"]
+    }
+  },
+  {
+    "name": "Jason",
+    "age": "13",
+    "openings": {
+      "white": ["French"],
+      "black": ["King's Indian"]
+    }
+  },
+  {
+    "name": "Andy",
+    "age": "18",
+    "openings": {
+      "white": ["French"],
+      "black": ["Sicilian"]
+    }
+  },
+  {
+    "name": "Simmon",
+    "age": "15",
+    "openings": {
+      "white": ["Caro-Kann"],
+      "black": ["French"]
+    }
+  },
+  {
+    "name": "Nicole",
+    "age": "15",
+    "openings": {
+      "white": ["Queen's pawn"],
+      "black": ["Caro-Kann"]
+    }
+  },
+  {
+    "name": "Dan",
+    "age": "70",
+    "openings": {
+      "white": ["Scandinavian"],
+      "black": ["Ruy Lopez", "Dutch"]
+    }
+  },
+  {
+    "name": "Bill",
+    "age": "68",
+    "openings": {
+      "white": ["Reti"],
+      "black": ["French"]
+    }
+  },
+  {
+    "name": "Zachary",
+    "age": "29",
+    "openings": {
+      "white": ["Spanish"],
+      "black": ["Caro-Kann"]
+    }
+  }
+]
