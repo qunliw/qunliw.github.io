@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(228, 228, 220);
+  background-color: rgb(225, 233, 238);
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -63,6 +63,7 @@ body {
   font-size: 20px;
   line-height: 1em;
   padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
@@ -82,11 +83,6 @@ body {
     visibility 0.4s ease-out;
   position: relative;
   top: -10px;
-}
-
-#chess-info {
-  padding: 20px;
-  margin-left: 35px;
 }
 
 .my-form {
@@ -137,7 +133,7 @@ body {
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 @media (max-width: 600px) {
