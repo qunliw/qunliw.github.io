@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d33b275a6e8d819c9bd96c51b52d203",
+    "revision": "7be0164341f65e2f5ff2a30e3a9d7233",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9dd668ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5adae7a3b93db37b1eeb",
-    "url": "/static/js/main.89c429cf.chunk.js"
+    "revision": "a7a7907a696e3f01f538",
+    "url": "/static/js/main.79b6a3f3.chunk.js"
   },
   {
     "revision": "a37778fe0935a06a7a1f",
@@ -26,9 +26,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "04d7ac5ab9dfcf2006e9100146a5a596",
     "url": "/static/media/contactMe.04d7ac5a.png"
-  },
-  {
-    "revision": "63c1751b7a63af403d7a2e52c2c115c3",
-    "url": "/static/media/happyLife.63c1751b.png"
   }
 ]);
