@@ -1,8 +1,10 @@
-body{
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:#f4f4f4;
+body {
+  background-color: rgb(225, 233, 238);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
 }
 
 .container {
@@ -11,22 +13,17 @@ body{
   overflow: hidden;
 }
 
-/* Header **/
-#header{
-  background:#324a58;
-  color:#ffffff;
-  padding-top:20px;
-  min-height:60px;
-  border-bottom:orangered 3px solid;
+#main-header {
+  background-color: rgb(108, 88, 66);
+  color: #fff;
+  font-style: italic;
 }
 
-header #branding{
-  float:left;
-}
-
-header #navbar{
-  float:right;
-  margin-top:10px; 
+#navbar {
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
 }
 
 #navbar a {
@@ -38,12 +35,8 @@ header #navbar{
 #navbar button {
   background-color: rgb(31, 40, 43);
   color: red;
+  border: none;
   font-size: 16px;
-}
-
-header .highlight{
-  color:orangered;
-  font-weight:bold;
 }
 
 #showcase {
@@ -131,12 +124,12 @@ header .highlight{
   box-sizing: border-box;
 }
 
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#324a58;
+#footer {
+  background: #333;
+  color: rgb(255, 255, 255);
   text-align: center;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
@@ -145,4 +138,8 @@ footer{
     float: none;
   }
 
+  #sidebar {
+    width: 100%;
+    float: none;
+  }
 }
