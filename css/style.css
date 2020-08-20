@@ -40,17 +40,14 @@ body {
 }
 
 #showcase {
-  background-image: url("../images/showcase.jpg");
-  background-position: center right;
-  min-height: 350px;
-  margin-bottom: 30px;
-  text-align: left;
-  color: black;
-  font-style: italic;
+  min-height: 400px;
+  background: url("../images/showcase2.jpg") no-repeat 0 -100px;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
 }
-
 #showcase h1 {
-  color: rgb(65, 58, 51);
+  color: silver;
   font-size: 25px;
   line-height: 1em;
   padding-top: 15px;
@@ -58,7 +55,7 @@ body {
 }
 
 #showcase h2 {
-  color: rgb(65, 58, 51);
+  color: silver;
   width: 80%;
   font-size: 20px;
   line-height: 1em;
@@ -121,10 +118,10 @@ body {
 
 #sidebar {
   float: right;
-  width: 35%;
-  background: rgb(70, 60, 50);
-  color: lightgoldenrodyellow;
+  width: 35%;;
+  color: rgb(52, 64, 78);
   padding: 10px;
+  margin-top:10px
   box-sizing: border-box;
 }
 
