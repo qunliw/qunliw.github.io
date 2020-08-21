@@ -1,8 +1,8 @@
-body{
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:#f4f4f4;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
 
 .container {
@@ -11,28 +11,39 @@ body{
   overflow: hidden;
 }
 
+li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+  list-style: none;
+}
+
 /* Header **/
-#header{
-  background:#324a58;
-  color:#ffffff;
-  padding-top:20px;
-  min-height:60px;
-  border-bottom:orangered 3px solid;
+#header {
+  background: #324a58;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 60px;
+  border-bottom: orangered 3px solid;
 }
 
-header #branding{
-  float:left;
+header #branding {
+  float: left;
 }
 
-header #navbar{
-  float:right;
-  margin-top:10px; 
+header #branding h1 {
+  margin: 0;
+}
+
+header #navbar {
+  float: right;
+  margin-top: 10px;
 }
 
 #navbar a {
   color: #fff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
   padding-right: 15px;
 }
 #navbar button {
@@ -41,27 +52,26 @@ header #navbar{
   font-size: 16px;
 }
 
-header .highlight{
-  color:orangered;
-  font-weight:bold;
+header .highlight {
+  color: orangered;
+  font-weight: bold;
 }
 
 #showcase {
   min-height: 400px;
-  background: url("../images/showcase2.jpg") no-repeat 0 -100px;
+  background: url("../images/showcase2.jpg") no-repeat 0;
   background-size: cover;
   text-align: center;
   color: #ffffff;
 }
 #showcase h1 {
-  color: silver;
   font-size: 25px;
   line-height: 1em;
-  padding-top: 20px;
+  padding-top: 30px;
+  font-style: italic;
 }
 
 #showcase h2 {
-  color: silver;
   width: 80%;
   font-size: 20px;
   line-height: 1em;
@@ -85,7 +95,6 @@ header .highlight{
   transition: opacity 0.4s ease-out, transform 0.4s ease-out,
     visibility 0.4s ease-out;
   position: relative;
-  top: -10px;
 }
 
 .my-form {
@@ -106,14 +115,22 @@ header .highlight{
   width: 80%;
 }
 
-#main {
-  float: left;
-  width: 60%;
-  padding: 0 30px;
-  box-sizing: border-box;
+/* Boxes */
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 }
 
-#main button {
+.box-1,
+.box-2 {
+  flex: 1;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+}
+
+.container-1 button {
   background-color: #133b47;
   color: white;
   border: none;
@@ -122,20 +139,11 @@ header .highlight{
   font-size: 16px;
 }
 
-#sidebar {
-  float: right;
-  width: 35%;;
-  color: rgb(52, 64, 78);
-  padding: 10px;
-  margin-top:10px
-  box-sizing: border-box;
-}
-
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#324a58;
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #324a58;
   text-align: center;
 }
 
@@ -144,5 +152,4 @@ footer{
     width: 100%;
     float: none;
   }
-
 }
