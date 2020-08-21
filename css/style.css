@@ -13,9 +13,12 @@ body {
 
 li {
   float: left;
+  font-size: 16px;
+  line-height: 1.8em;
   display: inline;
   padding: 0 20px 0 20px;
   list-style: none;
+  font-style: italic;
 }
 
 /* Header **/
@@ -68,7 +71,6 @@ header .highlight {
   font-size: 25px;
   line-height: 1em;
   padding-top: 30px;
-  font-style: italic;
 }
 
 #showcase h2 {
