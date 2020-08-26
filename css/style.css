@@ -161,7 +161,7 @@ footer {
 }
 
 .welcome h1::before {
-  content: "Through my eyes";
+  content: "Welcome In";
   font-size: 60px;
   animation: animate 8s infinite;
 }
@@ -178,7 +178,7 @@ footer {
   50% {
     font-size: 60px;
     opacity: 1;
-    content: "Living my life";
+    content: "Through my eyes";
   }
   65% {
     font-size: 57px;
@@ -187,7 +187,7 @@ footer {
   75% {
     font-size: 60px;
     opacity: 1;
-    content: "Coding with me";
+    content: "Living my life";
   }
   90% {
     font-size: 57px;
@@ -196,6 +196,6 @@ footer {
   100% {
     font-size: 60px;
     opacity: 1;
-    content: "Welcome IN";
+    content: "Coding with me";
   }
 }
