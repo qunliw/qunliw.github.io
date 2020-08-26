@@ -151,7 +151,7 @@ footer {
 }
 .welcome h2 {
   color: orangered;
-  font-size: 50px;
+  font-size: 40px;
   font-family: merienda;
   margin: 0;
 }
@@ -162,39 +162,39 @@ footer {
 
 .welcome h1::before {
   content: "Through my eyes";
-  font-size: 300%;
+  font-size: 60px;
   animation: animate 8s infinite;
 }
 
 @keyframes animate {
   0% {
-    font-size: 300%;
+    font-size: 60px;
     opacity: 1;
   }
   25% {
-    font-size: 275%;
+    font-size: 57px;
     opacity: 0;
   }
   50% {
-    font-size: 300%;
+    font-size: 60px;
     opacity: 1;
     content: "Living my life";
   }
   65% {
-    font-size: 275%;
+    font-size: 57px;
     opacity: 0;
   }
   75% {
-    font-size: 300%;
+    font-size: 60px;
     opacity: 1;
     content: "Coding with me";
   }
   90% {
-    font-size: 275%;
+    font-size: 57px;
     opacity: 0;
   }
   100% {
-    font-size: 300%;
+    font-size: 60px;
     opacity: 1;
     content: "Welcome IN";
   }
