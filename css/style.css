@@ -1,5 +1,4 @@
 body {
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #f4f4f4;
@@ -27,7 +26,7 @@ li {
   color: #ffffff;
   padding-top: 20px;
   min-height: 60px;
-  border-bottom: orangered 3px solid;
+  border-bottom: #6ab04c 3px solid;
 }
 
 header #branding {
@@ -49,31 +48,33 @@ header #navbar {
   font-size: 16px;
   padding-right: 15px;
 }
+
 #navbar button {
   background-color: rgb(31, 40, 43);
   color: red;
   font-size: 16px;
 }
 
-header .highlight {
-  color: orangered;
+header .highlight,
+#navbar .current {
+  color: #6ab04c;
   font-weight: bold;
 }
 
 #showcase {
-  min-height: 400px;
+  min-height: 500px;
   background: url("../images/showcase2.jpg") no-repeat 0;
   background-size: cover;
   text-align: center;
   color: #ffffff;
 }
-#showcase h1 {
+#showcase h4 {
   font-size: 25px;
   line-height: 1em;
   padding-top: 30px;
 }
 
-#showcase h2 {
+#showcase h3 {
   width: 80%;
   font-size: 20px;
   line-height: 1em;
@@ -152,5 +153,63 @@ footer {
   #main {
     width: 100%;
     float: none;
+  }
+}
+
+.welcome {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.welcome h2 {
+  color: orangered;
+  font-size: 50px;
+  font-family: merienda;
+  margin: 0;
+}
+.welcome h1 {
+  font-family: bignoodletitling;
+  margin: 0;
+}
+
+.welcome h1::before {
+  content: "Through my eyes";
+  font-size: 300%;
+  animation: animate 8s infinite;
+}
+
+@keyframes animate {
+  0% {
+    font-size: 300%;
+    opacity: 1;
+  }
+  25% {
+    font-size: 275%;
+    opacity: 0;
+  }
+  50% {
+    font-size: 300%;
+    opacity: 1;
+    content: "Living my life";
+  }
+  65% {
+    font-size: 275%;
+    opacity: 0;
+  }
+  75% {
+    font-size: 300%;
+    opacity: 1;
+    content: "Coding with me";
+  }
+  90% {
+    font-size: 275%;
+    opacity: 0;
+  }
+  100% {
+    font-size: 300%;
+    opacity: 1;
+    content: "Welcome In";
   }
 }
