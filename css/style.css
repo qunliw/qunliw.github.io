@@ -68,20 +68,6 @@ header .highlight,
   text-align: center;
   color: #ffffff;
 }
-#showcase h4 {
-  font-size: 25px;
-  line-height: 1em;
-  padding-top: 30px;
-}
-
-#showcase h3 {
-  width: 80%;
-  font-size: 20px;
-  line-height: 1em;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-align: center;
-}
 
 #showcase button {
   background-color: #034154;
@@ -210,6 +196,6 @@ footer {
   100% {
     font-size: 300%;
     opacity: 1;
-    content: "Welcome In";
+    content: "Welcome IN";
   }
 }
