@@ -63,7 +63,7 @@ header .highlight,
 
 #showcase {
   min-height: 500px;
-  background: url("../images/showcase2.jpg") no-repeat 0;
+  background: url("../images/showcase.jpg") no-repeat 0;
   background-size: cover;
   text-align: center;
   color: #ffffff;
@@ -87,20 +87,37 @@ header .highlight,
 }
 
 .contact {
-  background: #35424a;
+  padding:15px;
   color: #ffffff;
-  padding-left: 60px;
-  padding-bottom: 150px;
 }
 
-.my-form label {
-  display: block;
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
 }
 
-.my-form input[type="text"],
-.my-form textarea {
-  padding: 8px;
-  width: 60%;
+.form-control {
+  width: 400px;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+form .submit {
+  background:darkolivegreen;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover {
+  background-color:#6ab04c;
+  cursor: pointer;
 }
 
 /* Boxes */
@@ -151,12 +168,12 @@ footer {
 }
 .welcome h2 {
   color: #6ab04c;
-  font-size: 40px;
-  font-family: merienda;
+  font-size: 35px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   margin: 0;
 }
 .welcome h1 {
-  font-family: bignoodletitling;
+  font-family: 
   margin: 0;
 }
 
@@ -170,30 +187,22 @@ footer {
   0% {
     font-size: 60px;
     opacity: 1;
-  }
-  25% {
-    font-size: 57px;
-    opacity: 0;
-  }
-  50% {
-    font-size: 60px;
-    opacity: 1;
     content: "Through my eyes";
   }
-  65% {
+  20% {
     font-size: 57px;
     opacity: 0;
   }
-  75% {
+  40% {
     font-size: 60px;
     opacity: 1;
     content: "Living my life";
   }
-  90% {
+  60% {
     font-size: 57px;
     opacity: 0;
   }
-  100% {
+  80% {
     font-size: 60px;
     opacity: 1;
     content: "Coding with me";
