@@ -62,7 +62,7 @@ header .highlight,
 }
 
 #showcase {
-  min-height: 500px;
+  min-height: 420px;
   background: url("../images/showcase.jpg") no-repeat 0;
   background-size: cover;
   text-align: center;
