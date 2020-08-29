@@ -4,13 +4,9 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   color: #fff;
   background-color: #f4f4f4;
-}
-
-button {
-  font-family: "Poppins", sans-serif;
 }
 
 /* Header **/
