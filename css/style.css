@@ -10,7 +10,6 @@ body {
 }
 
 /* Header **/
-
 header {
   display: flex;
   height: 10vh;
@@ -125,15 +124,19 @@ form .submit:hover {
   cursor: pointer;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
 /* Boxes */
 .container-1 {
   display: flex;
   margin-top: 20px;
+  color: black;
+}
+.container-1 button {
+  background-color: darkolivegreen;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  box-shadow: 2px 2px 0 #034154;
+  font-size: 16px;
 }
 
 .box-1,
@@ -142,19 +145,6 @@ form .submit:hover {
   justify-content: space-around;
   text-align: center;
   padding: 10px;
-}
-
-.container-1 {
-  color: black;
-}
-
-.container-1 button {
-  background-color: #133b47;
-  color: white;
-  border: none;
-  padding: 6px 8px;
-  box-shadow: 2px 2px 0 #034154;
-  font-size: 16px;
 }
 
 footer {
