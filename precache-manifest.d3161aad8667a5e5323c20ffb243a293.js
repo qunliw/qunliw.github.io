@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32b790a7117efbe1f11642a0be880180",
+    "revision": "8f09c8daf34693dc4426b2d80287cabb",
     "url": "/index.html"
   },
   {
-    "revision": "7b7c54d5c200270f3c3a",
-    "url": "/static/js/2.72ab6cb0.chunk.js"
+    "revision": "e93d2f97983ae73e56d6",
+    "url": "/static/js/2.deb95333.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/static/js/2.72ab6cb0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.deb95333.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d68c75d260bc9756ea75",
-    "url": "/static/js/main.0cefc7ec.chunk.js"
+    "revision": "a0f17cfc980b924234f7",
+    "url": "/static/js/main.ee8c11b8.chunk.js"
   },
   {
     "revision": "a37778fe0935a06a7a1f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5a81aedc04152fc43ed502282102326",
     "url": "/static/media/contactMe.d5a81aed.png"
+  },
+  {
+    "revision": "7c246ce2250d022a0001104a38749abf",
+    "url": "/static/media/happyLife.7c246ce2.png"
   },
   {
     "revision": "49840d2a7b4b55ca51911ebe4660add5",
