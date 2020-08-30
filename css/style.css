@@ -43,7 +43,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-  padding-right:16px;
+  padding-right: 16px;
 }
 
 .covid button {
@@ -60,7 +60,7 @@ nav .current {
 
 #showcase {
   margin: auto;
-  min-height: 60vh;
+  min-height: 54vh;
   text-align: center;
 }
 
@@ -125,7 +125,7 @@ form .submit:hover {
   flex: 1;
   display: flex;
   justify-content: center;
-  height: 30vh;
+  height: 28vh;
   color: rgb(102, 124, 124);
 }
 .comment button {
