@@ -61,7 +61,7 @@ nav .current {
 
 #showcase {
   margin: auto;
-  min-height: 54vh;
+  min-height: 56vh;
   text-align: center;
 }
 
@@ -126,7 +126,7 @@ form .submit:hover {
   flex: 1;
   display: flex;
   justify-content: center;
-  height: 28vh;
+  height: 26vh;
   color: rgb(102, 124, 124);
 }
 .comment button {
