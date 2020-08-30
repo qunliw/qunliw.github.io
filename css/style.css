@@ -22,7 +22,8 @@ header {
 }
 
 .branding,
-nav {
+nav,
+.covid {
   display: flex;
 }
 
@@ -33,15 +34,19 @@ nav {
   flex: 3;
   justify-content: flex-end;
 }
+.covid {
+  flex: 1;
+  justify-content: flex-end;
+}
 
 nav a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-  padding-right: 16px;
+  padding-right:16px;
 }
 
-nav button {
+.covid button {
   background-color: rgb(31, 40, 43);
   color: red;
   font-size: 16px;
